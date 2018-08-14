@@ -7,7 +7,7 @@ class Dog
 
   @@all = []
 
-  def initialize(args={name: nil, breed: nil})
+  def initialize(name:, breed:)
     @id = nil
     @name = args[:name]
     @breed = args[:breed]
