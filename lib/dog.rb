@@ -9,8 +9,8 @@ class Dog
 
   def initialize(name:, breed:)
     @id = nil
-    @name = args[:name]
-    @breed = args[:breed]
+    @name = name
+    @breed = breed
 
     @@all << self
   end
